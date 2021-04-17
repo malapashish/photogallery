@@ -20,31 +20,27 @@ body {
   background-size: cover;
   background-position: top;
   background-image: url(http://bit.ly/2gPLxZ4);
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   font-family: Arial, Helvetica;
-  letter-spacing: 0.02em;
-  font-weight: 400;
+
+  /*
+  letter-spacing: 0.02em; */
+  /* font-weight: 400; */
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 /*******************/
 .App {
   /* max-width: 960px; */
   background: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  /* filter: blur(10px); */
-  margin: 20px 10px;
   max-width: 960px;
-  padding: 10px;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-  width: 50%;
   margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .title {
@@ -64,7 +60,7 @@ body {
 
 /************Form**************/
 form {
-  margin: 30px auto;
+  margin: 30px auto 10px;
   text-align: center;
 }
 
@@ -90,6 +86,11 @@ label {
 label:hover {
   background: #126e82;
   color: white;
+}
+
+.output {
+  height: 60px;
+  font-size: 0.8rem;
 }
 
 /******************************/
@@ -131,15 +132,21 @@ label:hover {
   /* padding controls height, will always be perfectly square regardless of width */
   /* position: relative; */
   /* opacity: 0.8; */
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px;
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  /* padding controls height, will always be perfectly square regardless of width */
+  position: relative;
+  opacity: 0.8;
 }
 
 .img-wrap img {
-  min-width: 80%;
+  min-width: 100%;
+  min-height: 100%;
   max-width: 150%;
-  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* @media screen and (max-width: 800px) {
@@ -149,11 +156,11 @@ label:hover {
   }
 }
 */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .img-grid {
     grid-gap: 10px;
   }
-}
+} */
 
 /**********************************/
 
