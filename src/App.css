@@ -152,6 +152,12 @@ label:hover {
   left: 0;
 }
 
+.progress-bar {
+  height: 5px;
+  background: #126e82;
+  margin-top: 20px;
+}
+
 /* @media screen and (max-width: 800px) {
   .img-grid {
     flex: 100%;
@@ -177,7 +183,7 @@ label:hover {
 }
 .backdrop img {
   display: block;
-  max-width: 60%;
+  max-width: 80%;
   max-height: 80%;
   margin: 60px auto;
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
