@@ -17,7 +17,11 @@ The project is a simple photogallery app which stores the image uploaded by user
 
 Gallery
 
-![Todo](images/Gallery.PNG)
+![Gallery](images/Gallery.PNG)
+
+Modal
+
+![Modal](images/Modal.PNG)
 
 ## Technologies
 * React - version 17.0.2
