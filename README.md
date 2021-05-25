@@ -1,4 +1,4 @@
-# Todo List
+# Photo Gallery
 > A photogallery application created using React , Firebase <br />
 > [Live Demo](https://ash-photogallery.netlify.app/)
 
